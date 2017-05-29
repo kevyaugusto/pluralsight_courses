@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Github Hub</title>
+		<!--[if lt IE 9]>
+			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![/end]-->
+		<link rel="stylesheet" type="text/css" href="css/site.css" />
+	</head>
+<body>
+	<div class="container">
+		<header>
+			<nav>
+				<ul>
+					<li><a href="/index.html">Home</a></li>
+					<li><a href="/contact.html">Contact</a></li>
+					<li><a href="/about.html">About</a></li>
+				</ul>
+			</nav>
+			<div><img src="img/github-logo.png" class="bordered-image"/></div>
+			<div>This is a site to search <a href="http://github.com">Github</a> for <strong>interesting projects</strong>.</div>			
+		</header>
+		<section id="main">
+			<p><em>Lorem Ipsum</em> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining <span>essentially unchanged</span>. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			<form action="http://wilder.azurewebsites.net/echo" method="POST" class="bordered-image simple-form">
+				<label for="searchPhrase">Search Phrase:</label>
+				<input type="text" name="searchPhrase" id="searchPhrase" /> <br />			
+				<input type="checkbox" name="useStars" id="useStars" checked="true" /> <label for="useStars">Use stars?</label> <br />
+				<label for="langChoice">Language: </label>
+				<select name="langChoice" id="langChoice">
+					<option>All</option>
+					<option>JavaScript</option>
+					<option selected>C#</option>
+					<option>Java</option>
+					<option>Ruby</option>
+				</select>
+				<br />
+				<input type="submit" value="search"></input>
+			</form>
+			<div id="results" class="bordered-image">
+				Results 
+			</div>
+		</section>
+		<footer>
+			<br />
+			&copy; 2017 KASOFT Ltd.
+		</footer>
+	</div>
+</body>
+</html>

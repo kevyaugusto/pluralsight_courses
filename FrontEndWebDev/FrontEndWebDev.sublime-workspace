@@ -1,0 +1,386 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"n",
+				"nav	Tag"
+			],
+			[
+				"he",
+				"header	Tag"
+			],
+			[
+				"st",
+				"strong	Tag"
+			],
+			[
+				"promo",
+				"promotionPosted"
+			],
+			[
+				"div",
+				"div	Tag"
+			],
+			[
+				"conn",
+				"connection"
+			],
+			[
+				"asn",
+				"asyncExecutionsDone"
+			],
+			[
+				"connection",
+				"connectionMySQL"
+			],
+			[
+				"f",
+				"f	Anonymous Function"
+			],
+			[
+				"co",
+				"config"
+			],
+			[
+				"express",
+				"expressValidator"
+			],
+			[
+				"name",
+				"nameValidator"
+			],
+			[
+				"produc",
+				"productSample"
+			],
+			[
+				"bo",
+				"bodyParser"
+			],
+			[
+				"prod",
+				"productsDAO"
+			],
+			[
+				"c",
+				"connection"
+			],
+			[
+				"produ",
+				"ProductsDAO"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n	<head>\n		<title>Github Hub</title>\n	</head>\n<body>\n	<header>\n		<h1><img src=\"img/logo.png\"/> Github Hub</h1>\n		<p>This is a site to search <a href=\"http://github.com\">Github</a> for <strong>interesting projects</strong>.</p>\n		<nav>\n			\n			<a href=\"/index.html\">Home</a>\n			<a href=\"/contact.html\">Contact</a>\n			<a href=\"/about.html\">About</a>			\n		</nav>\n	</header>\n	<section>	\n		<p><em>Lorem Ipsum</em> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining <span>essentially unchanged</span>. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>\n	</section>\n	<footer>\n		&copy; 2017 KASOFT Ltd.\n	</footer>\n</body>\n</html>",
+			"file": "index.html",
+			"file_size": 1102,
+			"file_write_time": 131405132554471447,
+			"settings":
+			{
+				"buffer_size": 1084,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 81.0,
+		"selected_items":
+		[
+			[
+				"set xml",
+				"Set Syntax: XML"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"set html",
+				"Set Syntax: HTML"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ht",
+				"TidyHTML"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Projetos/PluralSight/FrontEndWebDev/index.html",
+		"/D/Projetos/NodeJS/codehouse/app/views/errors/500.ejs",
+		"/D/Projetos/NodeJS/codehouse/app/views/errors/404.ejs",
+		"/D/Projetos/NodeJS/codehouse/test/products.js",
+		"/D/Projetos/NodeJS/codehouse/app/routes/products.js",
+		"/D/Projetos/NodeJS/codehouse/app/views/home/index.ejs",
+		"/D/Projetos/NodeJS/codehouse/app/routes/home.js",
+		"/D/Projetos/NodeJS/codehouse/app/infrastructure/connectionFactory.js",
+		"/D/Projetos/NodeJS/codehouse/config/express.js",
+		"/D/Projetos/NodeJS/codehouse/app/routes/promotions.js",
+		"/D/Projetos/NodeJS/codehouse/app/views/promotions/form.ejs",
+		"/D/Projetos/NodeJS/codehouse/app.js",
+		"/D/Projetos/NodeJS/codehouse/package.json",
+		"/D/Projetos/NodeJS/codehouse/app/views/promotions/editPromotions.ejs",
+		"/D/Projetos/NodeJS/codehouse/app/views/promotions/promotions.ejs",
+		"/D/Projetos/NodeJS/test-node/products.js",
+		"/C/Users/Kevy/Downloads/casadocodigo/app/views/home/index.ejs",
+		"/D/Projetos/NodeJS/codehouse/app/views/products/form.ejs",
+		"/D/Projetos/NodeJS/codehouse/android-client.js",
+		"/D/Projetos/NodeJS/codehouse/save-batch-products.js",
+		"/D/Projetos/NodeJS/codehouse/node_modules/accepts/index.js",
+		"/D/Projetos/NodeJS/codehouse/save-products-terminal.js",
+		"/D/Projetos/NodeJS/codehouse/app/infrastructure/ProductsDAO.js",
+		"/D/Projetos/NodeJS/codehouse/app/views/products/list.ejs",
+		"/D/Bitbucket/RealStateOffice/RealStateOffice.MVC/packages.config",
+		"/D/TFS/InYou/InYou.sln",
+		"/C/Users/Kevy/Desktop/Itens a colocar no site da empresa.TXT",
+		"/C/Users/Kevy/Desktop/ModeloAssinatura.html",
+		"/D/Google Drive/Personal/Importants/AssinaturaEmail/assinatura_atual.html",
+		"/D/Programas/DreamSpark_USP_Softwares/Serials.txt",
+		"/D/Google Drive/Jobs/Envision/NFs/DescricaoNF.txt",
+		"/C/Program Files (x86)/MSBuild/Microsoft/WindowsXaml/v14.0/Microsoft.Windows.UI.Xaml.CSharp.Targets",
+		"/C/Users/Kevy/Desktop/external-redirect.htm",
+		"/C/Users/Kevy/Desktop/default.html",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/Bitbucket/AirportPark/Criaturo.AirportPark.csproj",
+		"/C/Users/Kevy/Documents/IISExpress/config/applicationhost.config",
+		"/D/Bitbucket/Criaturo.AirportPark/Criaturo.AirportPark.csproj.user",
+		"/C/Users/Kevy/Documents/IISExpress/config/aspnet.config",
+		"/D/Google Drive/Freelancer/AirportPark/MobileHtmls/login.html",
+		"/C/Users/Kevy/Desktop/Commandos_SF/Email address.txt",
+		"/D/Bitbucket/TimeSheet/TimeSheet.Domain.Models/TimeSheet.Domain.Models.csproj",
+		"/D/Bitbucket/TimeSheet/TimeSheet.sln",
+		"/D/Bitbucket/TimeSheet/TimeSheet.Cloud/Profiles/fc-timesheethomologProduction.azurePubxml",
+		"/D/Bitbucket/TimeSheet/TimeSheet.Infrastructure/TimeSheet.Infrastructure.csproj",
+		"/D/Bitbucket/TimeSheet/TimeSheet.Presentation/TimeSheet.Presentation.csproj",
+		"/D/Bitbucket/TimeSheet/TimeSheet.Domain/TimeSheet.Domain.Models.csproj",
+		"/D/Bitbucket/TimeSheet/TimeSheet.Core/TimeSheet.Core.csproj",
+		"/D/Bitbucket/TimeSheet/TimeSheet.Migration/Fcamara.Timesheet.Migration.csproj",
+		"/D/Bitbucket/TimeSheet/TimeSheet.Domain.Services/TimeSheet.Domain.Services.csproj",
+		"/D/Bitbucket/TimeSheet/TimeSheet.Api/TimeSheet.Api.csproj",
+		"/D/Google Drive/Personal/Investiments/Invest.txt",
+		"/D/Bitbucket/boletonet/src/.nuget/NuGet.targets",
+		"/D/Projetos/mwa-api-master/ModernWebStore/ModernWebStore.Api/ModernWebStore.Api.csproj",
+		"/D/Projetos/Demo-BestPractices-MVC/12 - Spark/Views/Post/ListView.spark",
+		"/D/Bitbucket/ArquiteturaDDDKevy/Novo Documento de Texto.txt",
+		"/D/Projetos/mwa-api-master/ModernWebStore/ModernWebStore.Api/Web.config",
+		"/D/Projetos/MyCompany Vacation Demo Application/CSharp/Readme.txt",
+		"/D/Projetos/mwa-api-master/ModernWebStore/ModernWebStore.Api/ApplicationInsights.config",
+		"/D/Ingles/Aulas_Carlao/Ingles.txt",
+		"/D/Google Drive/Publica/Inglês/Aulas/Licao 1/licao 1.txt",
+		"/D/Google Drive/Jobs/Akira_Kevy/Propostas/PropostaSubstituirSinonimos.txt",
+		"/D/Google Drive/Jobs/Akira_Kevy/Propostas/PropostaConstrutora.txt",
+		"/D/Bitbucket/boletonet/src/.nuget/NuGet.Config",
+		"/D/Bitbucket/boletonet/src/Leiame.txt",
+		"/D/Bitbucket/boletonet/src/.nuget/packages.config",
+		"/D/Programas/Visual Studio 2013 Ultimate Envision/Serial.txt",
+		"/D/Projetos/MyCompany Vacation Demo Application/C#/Readme.txt",
+		"/D/Google Drive/Personal/Documents/Envision/Propostas/2 - Clientes/Flytour/Renovação Licenças 2013_14/Cálculo para renovação Licenças.txt",
+		"/D/Projetos/BoletoNet - Gerador de Boleto/src/Leiame.txt",
+		"/D/Google Drive/Personal/Curriculos/Qualificações.txt",
+		"/D/Google Drive/Personal/Curriculos/CartaApresentacao.txt",
+		"/D/Google Drive/Personal/Curriculos/Qualificações",
+		"/D/Google Drive/Personal/Curriculos/Cv/colocarrrNoCV.txt",
+		"/D/Projetos/MongoDB_Homeworks/Homeworks_MongoDB.sln",
+		"/D/Projetos/MongoDB_Homeworks/Homeworks/Homeworks.csproj.user",
+		"/D/Projetos/MongoDB_Homeworks/Homeworks/Homeworks.csproj",
+		"/D/Google Drive/Personal/Importants/AssinaturaEmail/assinatura_completa.html",
+		"/C/Users/Kevy/Desktop/assfinal.html",
+		"/C/Users/Kevy/Desktop/assinatura_completa.html",
+		"/C/Users/Kevy/Desktop/ass2.html",
+		"/C/Users/Kevy/Desktop/ass3.html",
+		"/C/Users/Kevy/Desktop/assinatura.html",
+		"/C/Users/Kevy/Desktop/ass1.html",
+		"/C/Users/Kevy/AppData/Roaming/Sublime Text 2/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Users/Kevy/Downloads/Package Control.sublime-package"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"livros",
+			"ng-",
+			"ng-app",
+			"Condominium",
+			"impact",
+			"site",
+			"park",
+			"airport",
+			"air",
+			"airport",
+			"iisexpress",
+			"criatu",
+			"23714",
+			"airport",
+			"2371",
+			"airport",
+			"park",
+			"airport",
+			"useii",
+			"fcamara",
+			"TimeSheet.Domain",
+			"IOC",
+			"fcam",
+			"core",
+			"fcam",
+			"fca",
+			"fcamara",
+			"home",
+			"2.2",
+			"face",
+			"twitter",
+			"linked"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"InYou"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1084,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								264,
+								294
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true
+}
