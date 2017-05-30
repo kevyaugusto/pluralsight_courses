@@ -89,3 +89,12 @@ header nav{
 header nav li{
 	display: inline;
 }
+
+.result {
+	margin: 5px;
+	border: 1px solid #888;
+}
+
+.result .title {
+	font-weight: bold;
+}

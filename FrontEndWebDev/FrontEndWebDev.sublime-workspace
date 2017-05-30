@@ -4,12 +4,108 @@
 		"selected_items":
 		[
 			[
-				"n",
-				"nav	Tag"
+				"res",
+				"result"
+			],
+			[
+				"J",
+				"JavaScript"
+			],
+			[
+				"s",
+				"showIt"
+			],
+			[
+				"f",
+				"f	Anonymous Function"
+			],
+			[
+				"some",
+				"someMessage"
+			],
+			[
+				"v",
+				"vGlobal"
+			],
+			[
+				"c",
+				"console"
+			],
+			[
+				"show",
+				"showItThen"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"sh",
+				"showIt"
+			],
+			[
+				"t",
+				"trueFalse"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"b",
+				"background-color"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"bn",
+				"background-color"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"bore",
+				"border"
+			],
+			[
+				"back",
+				"background-color"
 			],
 			[
 				"he",
-				"header	Tag"
+				"header"
+			],
+			[
+				"l",
+				"label	Tag"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"fo",
+				"form	Tag"
+			],
+			[
+				"n",
+				"nav	Tag"
 			],
 			[
 				"st",
@@ -36,10 +132,6 @@
 				"connectionMySQL"
 			],
 			[
-				"f",
-				"f	Anonymous Function"
-			],
-			[
 				"co",
 				"config"
 			],
@@ -64,10 +156,6 @@
 				"productsDAO"
 			],
 			[
-				"c",
-				"connection"
-			],
-			[
 				"produ",
 				"ProductsDAO"
 			]
@@ -76,13 +164,18 @@
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<html>\n	<head>\n		<title>Github Hub</title>\n	</head>\n<body>\n	<header>\n		<h1><img src=\"img/logo.png\"/> Github Hub</h1>\n		<p>This is a site to search <a href=\"http://github.com\">Github</a> for <strong>interesting projects</strong>.</p>\n		<nav>\n			\n			<a href=\"/index.html\">Home</a>\n			<a href=\"/contact.html\">Contact</a>\n			<a href=\"/about.html\">About</a>			\n		</nav>\n	</header>\n	<section>	\n		<p><em>Lorem Ipsum</em> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining <span>essentially unchanged</span>. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>\n	</section>\n	<footer>\n		&copy; 2017 KASOFT Ltd.\n	</footer>\n</body>\n</html>",
 			"file": "index.html",
-			"file_size": 1102,
-			"file_write_time": 131405132554471447,
 			"settings":
 			{
-				"buffer_size": 1084,
+				"buffer_size": 2202,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/site.js",
+			"settings":
+			{
+				"buffer_size": 2477,
 				"line_ending": "Windows"
 			}
 		}
@@ -90,9 +183,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 81.0,
+		"height": 150.0,
 		"selected_items":
 		[
+			[
+				"new",
+				"File: New View into File"
+			],
 			[
 				"set xml",
 				"Set Syntax: XML"
@@ -139,6 +236,8 @@
 	},
 	"file_history":
 	[
+		"/D/Projetos/PluralSight/FrontEndWebDev/css/site.css",
+		"/D/Projetos/PluralSight/README.md",
 		"/D/Projetos/PluralSight/FrontEndWebDev/index.html",
 		"/D/Projetos/NodeJS/codehouse/app/views/errors/500.ejs",
 		"/D/Projetos/NodeJS/codehouse/app/views/errors/404.ejs",
@@ -242,6 +341,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<a href=\"/index.html\">Home</a>",
 			"livros",
 			"ng-",
 			"ng-app",
@@ -292,7 +392,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -300,24 +400,51 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1084,
+						"buffer_size": 2202,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								264,
-								294
+								2186,
+								2186
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false,
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 532.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/site.js",
+					"settings":
+					{
+						"buffer_size": 2477,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								745,
+								745
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 565.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
