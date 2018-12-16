@@ -3,6 +3,7 @@ using Serilog.Events;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -49,6 +50,15 @@ namespace FullLogging.Core
 
         public static void WriteErrorLog(LogDetail logDetail)
         {
+            if (logDetail.Exception != null)
+            {
+                string procedureName = FindProcedureName(logDetail.Exception);
+                if (!string.IsNullOrEmpty(procedureName))
+                    logDetail.Location = procedureName;
+
+                logDetail.Message = GetMessageFromException(logDetail.Exception);
+            }
+
             _errorLogger.Write(LogEventLevel.Information, "{@LogDetail}", logDetail);
         }
 
@@ -59,6 +69,38 @@ namespace FullLogging.Core
             if (!enabledDiagnostics) return;
             
             _diagnosticLogger.Write(LogEventLevel.Information, "{@LogDetail}", logDetail);
+        }
+
+        private static string GetMessageFromException(Exception ex)
+        {
+            if (ex.InnerException!=null)
+                return GetMessageFromException(ex.InnerException);
+
+            return ex.Message;
+        }
+
+        private static string FindProcedureName(Exception ex)
+        {
+            var sqlException = ex as SqlException;
+
+            string procedureName = string.Empty;
+
+            if (sqlException != null)
+            {
+                procedureName = sqlException.Procedure;
+
+                if (!string.IsNullOrEmpty(procedureName))
+                    return procedureName;
+            }
+
+            procedureName = (string)ex.Data["Procedure"];
+            if (!string.IsNullOrEmpty(procedureName))
+                return procedureName;
+
+            if (ex.InnerException != null)
+                return FindProcedureName(ex.InnerException);
+
+            return procedureName;
         }
     }
 }
