@@ -1,6 +1,8 @@
 ﻿using FullLogging.Core;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,19 +18,45 @@ namespace FullLogging.Console
 
             var perfTracker = new PerformanceTracker("FullLogging.Console_Execution", string.Empty, logDetail.UserName, logDetail.Location, logDetail.Product, logDetail.Layer);
 
-            try
+            //try
+            //{
+            //    var forcedException = new Exception("Something bad has happened!");
+
+            //    forcedException.Data.Add("input param", "nothing to see here");
+
+            //    throw forcedException;
+            //}
+            //catch (Exception ex)
+            //{
+            //    logDetail = GetLogDetail(string.Empty, ex);
+
+            //    Logger.WriteErrorLog(logDetail);
+            //}
+
+            var fullLoggingConnection = ConfigurationManager.ConnectionStrings["FullLoggingConnection"].ToString();
+
+            using (var db = new SqlConnection(fullLoggingConnection))
             {
-                var forcedException = new Exception("Something bad has happened!");
+                db.Open();
+                try
+                {
+                    var adoCommand = new SqlCommand("uspCreateCustomer", db);
+                    adoCommand.CommandType = System.Data.CommandType.StoredProcedure;
 
-                forcedException.Data.Add("input param", "nothing to see here");
+                    adoCommand.Parameters.Add(new SqlParameter("@Name", "asdadsadasdadsadadasdsad"));
+                    adoCommand.Parameters.Add(new SqlParameter("@TotalPurchases", 12000));
+                    adoCommand.Parameters.Add(new SqlParameter("@TotalReturns", 100.50M));
 
-                throw forcedException;
-            }
-            catch (Exception ex)
-            {
-                logDetail = GetLogDetail(string.Empty, ex);
+                    adoCommand.ExecuteNonQuery();
 
-                Logger.WriteErrorLog(logDetail);
+                }
+                catch (Exception ex)
+                {
+                    var exceptionLogDetail = GetLogDetail(string.Empty, ex);
+
+                    Logger.WriteErrorLog(exceptionLogDetail);
+                }
+
             }
 
             logDetail = GetLogDetail("used full logging console.");
