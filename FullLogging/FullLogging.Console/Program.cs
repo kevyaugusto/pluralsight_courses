@@ -1,4 +1,5 @@
 ﻿using FullLogging.Core;
+using FullLogging.Data.CustomADO;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -40,14 +41,21 @@ namespace FullLogging.Console
                 db.Open();
                 try
                 {
-                    var adoCommand = new SqlCommand("uspCreateCustomer", db);
-                    adoCommand.CommandType = System.Data.CommandType.StoredProcedure;
+                    //RAW ADO.NET
+                    //var adoCommand = new SqlCommand("uspCreateCustomer", db);
+                    //adoCommand.CommandType = System.Data.CommandType.StoredProcedure;
 
-                    adoCommand.Parameters.Add(new SqlParameter("@Name", "asdadsadasdadsadadasdsad"));
-                    adoCommand.Parameters.Add(new SqlParameter("@TotalPurchases", 12000));
-                    adoCommand.Parameters.Add(new SqlParameter("@TotalReturns", 100.50M));
+                    //adoCommand.Parameters.Add(new SqlParameter("@Name", "asdadsadasdadsadadasdsad"));
+                    //adoCommand.Parameters.Add(new SqlParameter("@TotalPurchases", 12000));
+                    //adoCommand.Parameters.Add(new SqlParameter("@TotalReturns", 100.50M));
 
-                    adoCommand.ExecuteNonQuery();
+                    //adoCommand.ExecuteNonQuery();
+
+                    var customADO = new StoreProcedure(db, "uspCreateCustomer");
+                    customADO.AddParameter("@Name", "stadasdasudahdusahdua");
+                    customADO.AddParameter("@TotalPurchases", 12000);
+                    customADO.AddParameter("@TotalReturns", 100.50M);
+                    customADO.ExecuteNonQuery();
 
                 }
                 catch (Exception ex)

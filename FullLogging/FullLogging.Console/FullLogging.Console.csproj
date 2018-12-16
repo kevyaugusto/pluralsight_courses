@@ -67,6 +67,10 @@
       <Project>{c5808f6f-9bd8-4bf2-b76f-215f8c5c00df}</Project>
       <Name>FullLogging.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\FullLogging.Data\FullLogging.Data.csproj">
+      <Project>{34CC50DE-D3CC-4D74-8551-3C662C17F29A}</Project>
+      <Name>FullLogging.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
